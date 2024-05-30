@@ -13,7 +13,4 @@ json_mirrors='{
 echo "$json_mirrors" > daemon.json
 
 # Перемещаем файл в /etc/docker/daemon.json
-mv daemon.json /etc/docker/daemon.json
-
-# Перезапускаем демон Docker
-service docker restart
+mv daemon.json  ~/.docker/daemon.json
