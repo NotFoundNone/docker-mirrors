@@ -2,7 +2,7 @@
 
 ## Warning! This script overwrites the file!
 
-If you have important settings located in this file, then save them before using this script
+If you have important settings located in daemon.json, then save them before using this script
 
 ## Make the script executable
 
